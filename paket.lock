@@ -1,0 +1,7 @@
+STORAGE: NONE
+RESTRICTION: || (== net5.0) (== netstandard2.0) (== netstandard2.1)
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FSharp.Core (6.0) - restriction: || (== net5.0) (&& (== netstandard2.0) (>= netstandard2.1)) (== netstandard2.1)
+    Suave (2.6.1)
+      FSharp.Core  - restriction: || (== net5.0) (&& (== netstandard2.0) (>= netstandard2.1)) (== netstandard2.1)
